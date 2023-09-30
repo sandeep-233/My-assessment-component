@@ -46,7 +46,7 @@ function App() {
       {
         addAssessment && 
         <div className="sm:w-full w-[100vw] h-full  absolute bg-[#0000003d] flex justify-center pt-12 z-10">
-        <div className="sm:w-[591px] sm:h-[764px] w-[90vw] h-[90vh] flex flex-col items-start justify-start rounded-lg bg-[#FFFFFF]">
+        <div className="sm:w-[591px] sm:h-[764px] w-[90vw] h-[90vh] flex flex-col items-start justify-start rounded-lg bg-[#FFFFFF] overflow-y-scroll">
           {/* header */}
           <div className="sm:w-[591px] w-full h-[70px] p-[30px] flex justify-between items-center  border-[#DADCE0] border-b-[1px]">
             <p className="text-[20px] font-semibold text-[#1C4980]">Create New Assessment</p>
